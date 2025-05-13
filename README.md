@@ -1,3 +1,2 @@
 csoporttagok:
-Griffiths Robert
-Katona Zétény
+Griffiths Robert, Katona Zétény
