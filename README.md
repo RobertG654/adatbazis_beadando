@@ -1,1 +1,3 @@
-# adatbazis_beadando
+csoporttagok:
+Griffiths Robert
+Katona Zétény
