@@ -106,7 +106,6 @@ INSERT INTO Teams (team_id, team_name, stadium_id, league_position) VALUES
 (20, 'Wolves', 20, 7);
 
 INSERT INTO Players (player_id, full_name, team_id, position, nationality, goals, assists, appearances, yellow_cards, red_cards) VALUES
--- Top gólszerzők
 (1, 'Jamie Vardy', 9, 'Forward', 'England', 23, 5, 35, 4, 0),
 (2, 'Danny Ings', 16, 'Forward', 'England', 22, 2, 38, 4, 0),
 (3, 'Pierre-Emerick Aubameyang', 1, 'Forward', 'Gabon', 22, 3, 36, 2, 0),
@@ -117,7 +116,6 @@ INSERT INTO Players (player_id, full_name, team_id, position, nationality, goals
 (8, 'Raúl Jiménez', 20, 'Forward', 'Mexico', 17, 6, 38, 5, 0),
 (9, 'Anthony Martial', 12, 'Forward', 'France', 17, 6, 32, 3, 0),
 (10, 'Marcus Rashford', 12, 'Forward', 'England', 17, 8, 31, 3, 0),
--- További gólszerzők
 (11, 'Sergio Agüero', 11, 'Forward', 'Argentina', 16, 4, 24, 4, 0),
 (12, 'Tammy Abraham', 6, 'Forward', 'England', 15, 3, 34, 1, 0),
 (13, 'Gabriel Jesus', 11, 'Forward', 'Brazil', 14, 7, 34, 2, 0),
@@ -128,7 +126,6 @@ INSERT INTO Players (player_id, full_name, team_id, position, nationality, goals
 (18, 'Teemu Pukki', 14, 'Forward', 'Finland', 11, 3, 36, 2, 0),
 (19, 'Riyad Mahrez', 11, 'Midfielder', 'Algeria', 11, 9, 33, 1, 0),
 (20, 'Son Heung-Min', 17, 'Midfielder', 'South Korea', 11, 10, 30, 3, 0),
--- Középpályások és védők
 (21, 'Neal Maupay', 4, 'Forward', 'France', 10, 3, 37, 7, 0),
 (22, 'Mason Greenwood', 12, 'Forward', 'England', 10, 1, 31, 0, 0),
 (23, 'Alexandre Lacazette', 1, 'Forward', 'France', 10, 4, 30, 2, 0),
@@ -139,7 +136,6 @@ INSERT INTO Players (player_id, full_name, team_id, position, nationality, goals
 (28, 'Willian', 6, 'Midfielder', 'Brazil', 9, 7, 36, 2, 0),
 (29, 'Christian Pulisic', 6, 'Midfielder', 'USA', 9, 4, 25, 2, 0),
 (30, 'Jack Grealish', 2, 'Midfielder', 'England', 8, 6, 36, 8, 0),
--- Kapusok és további játékosok
 (31, 'Trent Alexander-Arnold', 10, 'Defender', 'England', 4, 13, 38, 3, 0),
 (32, 'Andrew Robertson', 10, 'Defender', 'Scotland', 2, 12, 36, 4, 0),
 (33, 'David Silva', 11, 'Midfielder', 'Spain', 6, 10, 27, 1, 0),
@@ -340,7 +336,7 @@ INSERT INTO Goals (goal_id, match_id, player_id, team_id, minute, goal_type) VAL
 (51, 89, 7, 17, 43, 'Header'),
 (52, 89, 7, 17, 62, 'Penalty'),
 
--- 38. forduló góljai (utolsó forduló)
+-- 38. forduló góljai
 (53, 91, 3, 1, 33, 'Normal'),
 (54, 91, 3, 1, 45, 'Penalty'),
 (55, 91, 24, 18, 66, 'Normal'),
