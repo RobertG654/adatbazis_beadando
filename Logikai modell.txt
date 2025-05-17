@@ -1,0 +1,76 @@
+Stadium
+	stadium_id (PK)
+
+	stadium_name
+
+	city
+
+	capacity
+
+Team
+	team_id (PK)
+
+	team_name
+
+	stadium_id (FK → Stadium)
+
+	league_position
+
+Player
+	player_id (PK)
+
+	full_name
+
+	team_id (FK → Team)
+
+	position
+
+	nationality
+
+	goals
+
+	assists
+
+	appearances
+
+	yellow_cards
+
+	red_cards
+
+Match
+	match_id (PK)
+
+	match_date
+
+	home_team_id (FK → Team)
+
+	away_team_id (FK → Team)
+
+	home_goals
+
+	away_goals
+
+	stadium_id (FK → Stadium)
+
+	attendance
+
+	game_week
+
+	yellow_cards
+
+	red_cards
+
+	referee
+
+Goal
+	goal_id (PK)
+
+	match_id (FK → Match)
+
+	player_id (FK → Player)
+
+	team_id (FK → Team)
+
+	minute
+
+	goal_type (Normal, Penalty, Free Kick, Header, Own Goal)
